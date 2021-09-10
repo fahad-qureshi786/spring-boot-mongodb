@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.smart</groupId>
 	<artifactId>spring-mongo-db</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>spring-mongo-db</name>
 	<description>Spring boot using mongo db</description>
 	<properties>
