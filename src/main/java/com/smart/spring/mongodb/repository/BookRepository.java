@@ -8,6 +8,4 @@ import java.util.List;
 
 public interface BookRepository extends MongoRepository<Book, Long> {
 
-    @Query("select book.name from Book as book")
-    public List<String> getBookNamesOnly();
 }

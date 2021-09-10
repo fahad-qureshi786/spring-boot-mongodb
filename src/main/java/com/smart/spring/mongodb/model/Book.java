@@ -6,6 +6,7 @@ import lombok.ToString;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Id;
+import java.util.List;
 
 @Getter
 @Setter
@@ -16,5 +17,6 @@ public class Book {
     private Long id;
     private String name;
     private String isbnNumber;
-
+    private AuthorInfo authorInfo;
+    private List<String> bookTags;
 }

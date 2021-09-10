@@ -20,3 +20,20 @@ The following guides illustrate how to use some features concretely:
 * Install Mongodb Compass
 * Create database called ```    BookStore   ```
 * Create collection named ```   Book    ```
+
+* You may Insert List, Set, Other Objects into the Document, and I have implemented that
+* Now you may pass following Raw JSON Data into Request Body of book/addBook API
+```
+    {
+    "id": 1,
+    "name": "Java",
+    "isbnNumber": "ISBN-000001",
+    "authorInfo": {
+        "authorName": "Fahad Shahzad",
+        "address": "Sukkur IBA University",
+        "phone": "03017021045",
+        "gender": "MALE"
+    },
+    "bookTags": ["Best", "Advance"]
+    }
+```
